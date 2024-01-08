@@ -1,0 +1,21 @@
+<!-- nav_menu_items.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/admin_dashboard"
+            android:icon="@drawable/dashboard"
+            android:title="Admin Dashboard" />
+        <item
+            android:id="@+id/project"
+            android:icon="@drawable/project"
+            android:title="Project" />
+        <item
+            android:id="@+id/employee"
+            android:icon="@drawable/user"
+            android:title="Employee" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+</menu>
