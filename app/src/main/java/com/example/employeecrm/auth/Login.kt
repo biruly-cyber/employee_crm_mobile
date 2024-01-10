@@ -22,7 +22,7 @@ import java.io.IOException
 
 class Login : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding
-    private val BASE_URL = "http://192.168.1.7:4000/api/v1/users/" // Remove '/users/login' from the base URL
+    private val BASE_URL = "http://192.168.1.51:4000/api/v1/users/" // Remove '/users/login' from the base URL
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A389EC"
+    android:background="#334155"
     tools:context=".auth.Login">
 
 
@@ -12,14 +12,14 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="148dp"
+        android:layout_marginTop="100dp"
         android:text="BLUROCK"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="50dp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="-9dp" />
 
     <TextView
         android:id="@+id/textView"
